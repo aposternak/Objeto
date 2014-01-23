@@ -3,6 +3,7 @@ function Name(id, url, name, position) {
     this.url = url;
     this.name = name;
     this.position = position;
+    
     //Agregar contenedor de nombre y posición al block
     $('#'+id)
             .append(
