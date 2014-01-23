@@ -1,4 +1,4 @@
-//JSONs de datos
+//2 JSONs de datos
 var dato = {
     id : 'obj1',
     image : 'pic.png',
