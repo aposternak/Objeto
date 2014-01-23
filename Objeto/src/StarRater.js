@@ -6,7 +6,8 @@ function StarRater(id, num, enable, amount, concept, date) {
     this.amount = amount;
     this.concept = concept;
     this.date = date;
-  //Agregar calificador de estrellas al block
+  
+    //Agregar calificador de estrellas al block
     $(id)
             .append(
                     '<div class="title">Calificador de Estrellas&nbsp</div><div class="icon" /><div class="stars"><div id="amount">'

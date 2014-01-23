@@ -6,9 +6,9 @@ function TagContainer(id) {
     //Agregar contenedor de tags al block
     $(this.id)
             .append(
-                    '<div class="title">Contenedor de Tags&nbsp</div><div class="icon" /><div class="tags" />');
-    
+                    '<div class="title">Contenedor de Tags&nbsp</div><div class="icon" /><div class="tags" />');    
 }
+
 //Métodos de objeto TagContainer, interfaz con objeto global
 TagContainer.prototype = {
         addTag : function(name, url) {

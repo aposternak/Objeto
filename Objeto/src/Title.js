@@ -7,6 +7,7 @@ function Title(id, tit, desc) {
     $('#'+id).append(
             '<div class="title">Título&nbsp</div><div class="icon" /><div class="tit"><h1>'+this.tit+'</h1><h2 class="h2">'+this.desc+'</h2>');
 }
+
 //Métodos de objeto Title, interfaz con objeto global
 Title.prototype = {
         getTitle : function() {

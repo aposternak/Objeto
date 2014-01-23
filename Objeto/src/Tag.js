@@ -6,6 +6,7 @@ function Tag(name, url, id) {
                     + '</div>' + '<div class="tooltip"><div id="nom">' + name
                     + '</div><img id="im" src=' + url + ' /></div>');
 }
+
 //Funciones para mostrar tooltip y eliminar tooltip y objeto
 $(function() {
     $('.im').click(function() {
