@@ -1,0 +1,259 @@
+ .tooltip {
+    display:none;
+    background-image: url('tooltip.png');
+	background-repeat: no-repeat;
+    height:97px;
+    width:167px; 
+    font:14px arial,sans-serif;
+	color: white;
+	
+	position:static;
+ }
+#nom {
+    position: relative;
+	top: 35px;
+	left: 15px;
+ }
+ #im {
+    position: relative;	
+	left: 100px;
+ }
+#obj1 {
+	width: 420px;
+	height: auto;
+	display: inline-block;
+	
+	background: white;
+	border-radius: 3px;
+	box-shadow: 3px 5px 5px rgb(195,195,195);
+	
+	font:10px arial,sans-serif;
+	font-style:italic;
+	color: rgb(195,195,195);
+	text-align: right;
+	
+	padding: 5px;
+	
+}
+#obj2 {
+	width: 420px;
+	height: auto;
+	display: inline-block;
+	
+	background: white;
+	border-radius: 3px;
+	box-shadow: 3px 5px 5px rgb(195,195,195);
+	
+	font:10px arial,sans-serif;
+	font-style:italic;
+	color: rgb(195,195,195);
+	text-align: right;
+	
+	padding: 5px;
+	position: absolute;
+	margin-left: 100px;
+}
+.title {
+	position: relative;
+	top: 20px;
+	left: -18px;
+}
+#t1 {
+	position: relative;
+	top: -2px;
+}
+#i1  {
+	position: relative;
+	top: -15px;
+}
+.pic {
+	width: 420px;
+	height: 270px;
+	border-top-style:dotted;
+	border-color:rgb(195,195,195);
+	border-width:thin;
+	background-repeat:no-repeat;
+	margin-top: -20px;
+	position: relative;
+	top: 5px;
+}
+.tit {
+	font:8px arial,sans-serif;
+	color: black;
+	text-align: left;
+	height: 25px;
+	border-top-style:dotted;
+	border-color:rgb(195,195,195);
+	border-width:thin;
+}
+.h2 {
+	position: relative;
+	color: gray;
+	top: -10px;
+}
+.name {
+	font:16px arial,sans-serif;
+	color: black;
+	text-align: left;	
+	border-top-style:dotted;
+	border-color:rgb(195,195,195);
+	border-width:thin;
+	height: 16px;
+	padding:5px;
+}
+#text {
+	position: relative;
+	left: 40px;	
+	top: -40px;	
+}
+#url {
+	width: 40px;
+	height: 40px;
+	background-repeat:no-repeat;
+	position: relative;
+	left: -10px;		
+}
+.stars {
+	font:16px arial,sans-serif;
+	color: black;
+	border-top-style:dotted;
+	border-color:rgb(195,195,195);
+	border-width:thin;
+	padding:10px;
+	height: 30px;
+	padding:5px;
+}
+#amount {
+	display: inline-block;
+	position: relative;
+	top: -9px;
+	left: -80px;	
+}#concept {
+	display: inline-block;
+	position: relative;	
+	left: -220px;	
+}
+#date {
+	display: inline-block;
+	position: relative;
+	left: -70px;
+}
+.blanc {
+	width: 20px;
+	height: 20px;
+	
+	display: inline-block;
+	position: relative;
+	top: -9px;
+	left: -9px;
+	cursor: pointer;	
+}
+.star0 {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+  	
+	
+	background-image: url('blank.png');
+	background-repeat:no-repeat;	
+}
+.star1 {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+  	
+	
+	background-image: url('blank.png');
+	background-repeat:no-repeat;	
+}
+.star2 {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+  	
+	
+	background-image: url('blank.png');
+	background-repeat:no-repeat;	
+}
+.star3 {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+  	
+	
+	background-image: url('blank.png');
+	background-repeat:no-repeat;	
+}
+.star4 {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+  	
+	
+	background-image: url('blank.png');
+	background-repeat:no-repeat;	
+}
+.blank 
+{
+  background-image: url(blank.png);
+}
+.full 
+{
+  background-image: url(full.png);
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  background-image: url('up.png');
+  display: inline-block;
+  margin-right: 5px;
+  cursor:pointer;
+  position: relative;
+  top: 6px;
+  left: 6px;
+}
+.bg1 
+{
+  background-image: url(up.png);
+}
+.bg2 
+{
+  background-image: url(down.png);
+}
+.tags
+{
+	text-align: left;
+	border-top-style:dotted;
+	border-color:rgb(195,195,195);
+	border-width:thin;
+	height: 35px;	
+}
+.tags
+{
+	text-align: left;
+	border-top-style:dotted;
+	border-color:rgb(195,195,195);
+	border-width:thin;
+	height: 35px;	
+}
+.tag {
+	display: inline-block;
+	margin: 5px;
+	
+	background: rgb(222,231,250);
+	
+	border: 2px solid rgb(202,216,245);
+	border-radius:10px 5px 5px 10px;
+	padding: 4px;
+	
+	font:16px arial,sans-serif;
+	color: black;
+}
+.im {
+	width: 5px;
+    height: 5px;
+	position: relative;
+	top: -3px;
+	left: 2px;
+	cursor: pointer;
+}
